@@ -1,17 +1,61 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { Router } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+import Main from './Main/index';
+import './assets/App.css';
+const history = createBrowserHistory();
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render((
+    <Router history={history} >
+        <Main history={history} />
+    </Router>
+), document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+
+// import React from 'react';
+// import logo from './logo.svg';
+// import './assets/App.css';
+//
+// class App extends React.Component{
+//
+//     constructor(props) {
+//         super(props);
+//         this.state = {
+//             apiResponse: '',
+//             error: '',
+//         };
+//     }
+//
+//     callAPI() {
+//         fetch("http://127.0.0.1:5000/testAPI", {
+//             method: 'post',
+//             headers: {
+//                 'Content-Type': 'application/json'
+//             }
+//
+//         })
+//             .then(res => res.text())
+//             .then(res => this.setState({ apiResponse: res}))
+//             .catch(e => {
+//                 this.setState({ error: e });
+//                 console.log(this.state.error);
+//             })
+//     }
+//
+//     componentDidMount() {
+//         this.callAPI();
+//     }
+//
+//
+//     render() {
+//         return (
+//             <div className="App">
+//                 <p>{this.state.apiResponse}</p>
+//             </div>
+//         );
+//     }
+// }
+//
+// export default App;
