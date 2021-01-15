@@ -11,7 +11,7 @@ export default class Main extends Component{
     render() {
         return (
             <div>
-                <AppBar />
+                {/* <AppBar /> */}
                 <HashRouter basename='/'>
                     <Router>
                         <Switch>
@@ -21,7 +21,7 @@ export default class Main extends Component{
                         </Switch>
                     </Router>
                 </HashRouter>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         );
     }
