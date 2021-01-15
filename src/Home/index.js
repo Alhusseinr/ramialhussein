@@ -1,8 +1,4 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
-import Paper from '@material-ui/core/Paper';
-import Jumbo from '../assets/jumbo2.jpg';
-//Fonts: Roboto Slab or Proxima Nova. Missing period.
 export default class Home extends React.Component{
     render() {
         return (

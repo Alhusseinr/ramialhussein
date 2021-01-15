@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import { HashRouter, Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-
-import AppBar from '../components/Navbar/index';
 import Repos from '../Repos/index';
 import Home from '../Home/index';
 import Resume from '../Resume/index';
-import Footer from "../components/Navbar/footer";
 
 export default class Main extends Component{
     render() {
