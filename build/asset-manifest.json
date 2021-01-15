@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ramialhussein/static/css/main.8e879629.chunk.css",
+    "main.js": "/ramialhussein/static/js/main.695b3434.chunk.js",
+    "main.js.map": "/ramialhussein/static/js/main.695b3434.chunk.js.map",
+    "runtime-main.js": "/ramialhussein/static/js/runtime-main.f76761b6.js",
+    "runtime-main.js.map": "/ramialhussein/static/js/runtime-main.f76761b6.js.map",
+    "static/js/2.0a9aba1a.chunk.js": "/ramialhussein/static/js/2.0a9aba1a.chunk.js",
+    "static/js/2.0a9aba1a.chunk.js.map": "/ramialhussein/static/js/2.0a9aba1a.chunk.js.map",
+    "index.html": "/ramialhussein/index.html",
+    "precache-manifest.dc4a081c04e890d7f543bbdf47ddea04.js": "/ramialhussein/precache-manifest.dc4a081c04e890d7f543bbdf47ddea04.js",
+    "service-worker.js": "/ramialhussein/service-worker.js",
+    "static/css/main.8e879629.chunk.css.map": "/ramialhussein/static/css/main.8e879629.chunk.css.map",
+    "static/js/2.0a9aba1a.chunk.js.LICENSE.txt": "/ramialhussein/static/js/2.0a9aba1a.chunk.js.LICENSE.txt",
+    "static/media/jumbo2.jpg": "/ramialhussein/static/media/jumbo2.fb77ce93.jpg",
+    "static/media/App.css": "/ramialhussein/static/media/parallex.476e815d.jpg",
+    "static/media/resume.png": "/ramialhussein/static/media/resume.0624606f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f76761b6.js",
+    "static/js/2.0a9aba1a.chunk.js",
+    "static/css/main.8e879629.chunk.css",
+    "static/js/main.695b3434.chunk.js"
+  ]
+}
